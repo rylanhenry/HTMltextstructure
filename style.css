@@ -13,3 +13,23 @@ p.one {
      border-width: 5px;
 	 border-color: red;
 }
+div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: mymove;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes h2 {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+

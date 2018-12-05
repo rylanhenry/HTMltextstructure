@@ -18,7 +18,7 @@ div {
     height: 100px;
     position: relative;
     background-color: red;
-    animation-name: mymove;
+    animation-name: header;
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
